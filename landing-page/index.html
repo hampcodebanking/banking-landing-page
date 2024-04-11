@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cashflow</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#caracteristicas">Características</a></li>
+            <li><a href="#planes">Planes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <div class="auth-buttons">
+            <a
+              href="http://localhost:4200/home"
+              target="_blank"
+              class="login-button"
+              >Iniciar sesión</a
+            >
+            <a href="#signup" class="signup-button">Crear cuenta</a>
+          </div>
+        </nav>
+        <div class="header-content">
+          <h1 class="header-title">Bienvenido a HampCode Banking</h1>
+          <p class="header-description">
+            La mejor herramienta para el control de tus finanzas.
+          </p>
+          <a href="#cta" class="header-cta">Regístrate ahora</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h2 id="inicio" class="section-title">
+          Gestiona tus ingresos y gastos
+        </h2>
+        <p class="section-description">
+          Registra tus transacciones y lleva un seguimiento detallado de tus
+          finanzas.
+        </p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 id="acerca" class="section-title">Acerca de</h2>
+        <p class="section-description">
+          Cashflow es una aplicación diseñada para ayudarte a gestionar tus
+          finanzas de manera efectiva. Con nuestras características intuitivas y
+          poderosas, podrás tener un control completo de tus ingresos y gastos,
+          y tomar decisiones financieras informadas. Nuestro objetivo es
+          brindarte una herramienta fácil de usar que te ayude a alcanzar tus
+          metas financieras.
+        </p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 id="caracteristicas" class="section-title">Características</h2>
+        <div class="features-container">
+          <div class="feature">
+            <h3 class="feature-title">Gestión de transacciones</h3>
+            <p class="feature-description">
+              Registra y categoriza tus ingresos y gastos de manera rápida y
+              sencilla.
+            </p>
+          </div>
+          <div class="feature">
+            <h3 class="feature-title">Informes y gráficos</h3>
+            <p class="feature-description">
+              Visualiza tus datos financieros en gráficos y reportes detallados
+              para obtener una visión clara de tu situación financiera.
+            </p>
+          </div>
+          <div class="feature">
+            <h3 class="feature-title">Presupuesto personalizado</h3>
+            <p class="feature-description">
+              Crea y administra tu presupuesto para controlar tus gastos y
+              alcanzar tus metas financieras.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="plans" id="planes">
+      <div class="container">
+        <h2 class="section-title">Nuestros Planes</h2>
+        <div class="plan-cards">
+          <div class="plan-card">
+            <h3 class="plan-title">Plan Básico</h3>
+            <p class="plan-price">$9.99/mes</p>
+            <ul class="plan-features">
+              <li>Funcionalidad 1</li>
+              <li>Funcionalidad 2</li>
+              <li>Funcionalidad 3</li>
+              <li>Funcionalidad 4</li>
+            </ul>
+            <a href="#" class="btn-plan">Seleccionar</a>
+          </div>
+          <div class="plan-card recommended">
+            <h3 class="plan-title">Plan Recomendado</h3>
+            <p class="plan-price">$19.99/mes</p>
+            <ul class="plan-features">
+              <li>Funcionalidad 1</li>
+              <li>Funcionalidad 2</li>
+              <li>Funcionalidad 3</li>
+              <li>Funcionalidad 4</li>
+            </ul>
+            <a href="#" class="btn-plan">Seleccionar</a>
+          </div>
+          <div class="plan-card">
+            <h3 class="plan-title">Plan Premium</h3>
+            <p class="plan-price">$29.99/mes</p>
+            <ul class="plan-features">
+              <li>Funcionalidad 1</li>
+              <li>Funcionalidad 2</li>
+              <li>Funcionalidad 3</li>
+              <li>Funcionalidad 4</li>
+            </ul>
+            <a href="#" class="btn-plan">Seleccionar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-text">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-description">
+              ¿Tienes alguna pregunta o sugerencia? Estamos aquí para ayudarte.
+              Contáctanos a través de los siguientes medios:
+            </p>
+          </div>
+          <div class="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button class="contact-button" type="submit">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="container">
+        <h2 class="cta-title">¿Listo para tomar el control de tus finanzas?</h2>
+        <a href="#registration" class="cta-button">Comienza ahora</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">
+          &copy; 2023 Cashflow. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
